@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9bfa7e0a-d03e-46c8-9e4e-069f28f95367</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MLHTest.py</StartupFile>
+    <StartupFile>Get Poet names.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="MLHTest.py" />
+    <Compile Include="Poems Part 1 Find a Verb.py" />
+    <Compile Include="Get poet names from an API.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Poems Part 2 Find Certain Verbs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Get Poet names.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
